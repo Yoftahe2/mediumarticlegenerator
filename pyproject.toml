@@ -1,0 +1,20 @@
+[project]
+name = "mediumarticlegenerator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Yoftahe2", email = "tesfayeyoftahe@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "cryptography<45",
+    "deepagents>=0.7.42",
+]
+
+[project.scripts]
+mediumarticlegenerator = "mediumarticlegenerator:main"
+
+[build-system]
+requires = ["uv_build>=0.13.10,<0.14.0"]
+build-backend = "uv_build"
